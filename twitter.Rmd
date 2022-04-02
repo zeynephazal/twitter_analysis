@@ -61,10 +61,10 @@ library(RCurl)
 options(RCurlOptions = list(cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")))
 
 #TWEETTER DAN ELDE EDILMIS KODLAR
-api_key<- "H87VMYThgfKvANWLNqqcGxTRd"
-api_secret<- "6dwAK608WjbrEpKP0jGVCGVPeaT9vpzGHAPEGSBTyCWeBukCmb"
-access_token<- "2408033235-e1hiA3FCuAuVeYSf0CljOUbLiy5pfwrC25H2DZk"
-access_token_secret<- "bidNDXU9itTnGcqVI5CgDaCzCgXMaef4wurDvxFJdT1w2"
+api_key<- "XXXXXXXXXXXXXXXXXXXXXX"
+api_secret<- "XXXXXXXXXXXXXXXXXXXXX"
+access_token<- "XXXXXXXXXXXXXXXXXX"
+access_token_secret<- "XXXXXXXXXXXXXXXXXXXX"
 
 # registerTwitterOAuth(twitCred)
 setup_twitter_oauth(api_key, api_secret, access_token, access_token_secret)
